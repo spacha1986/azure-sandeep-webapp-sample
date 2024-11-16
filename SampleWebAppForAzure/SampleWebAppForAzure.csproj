@@ -4,6 +4,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/3085fe9e-d2ae-423b-b42a-033dba9219f2/resourceGroups/SandeepLearningGroup/providers/microsoft.insights/components/sandeep-learning-first-1982</ApplicationInsightsResourceId>
+    <UserSecretsId>47bc98a6-ac23-44f1-977e-19814f5c3dfb</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>

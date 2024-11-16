@@ -14,6 +14,7 @@ namespace SampleWebAppForAzure.Pages
 
         public void OnGet()
         {
+            throw new Exception("Testing application Insights");
         }
     }
 
